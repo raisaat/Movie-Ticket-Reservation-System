@@ -73,7 +73,7 @@ All user data must be saved in a file named userdb.dat. The program reads the fi
   
    If the user wishes to add tickets to the order, the user is stepped through the reservation process to add seats to the current order. When the user finishes adding seats, the program returns to the main menu.
   
-   If the user wishes to delete tickets from an order, a numerical menu listing each individual seat reserved for that order is displayed. Along with the row and seat numbers, the ticket type is also displayed. The last entry in the menu is "Exit". The user selects a seat from the menu. That seat is removed from the order the seat is marked as open instead of reserved in the auditorium. If there are no tickets left in the order, the order is removed from the user's account and the program returns to the main menu. The program loops back to the individual seat menu until the user decides to exit the process and return the main menu.
+   If the user wishes to delete tickets from an order, a numerical menu listing each individual seat reserved for that order is displayed. Along with the row and seat numbers, the ticket type is also displayed. The last entry in the menu is "Exit". The user selects a seat from the menu. That seat is removed from the order and the seat is marked as open instead of reserved in the auditorium. If there are no tickets left in the order, the order is removed from the user's account and the program returns to the main menu. The program loops back to the individual seat menu until the user decides to exit the process and return to the main menu.
   
    If the user wishes to cancel the order, all the seats in the order are marked as available and the order is removed from the user's account. After the order has been cancelled, the program returns to the main menu.
   
@@ -83,7 +83,7 @@ All user data must be saved in a file named userdb.dat. The program reads the fi
   
 **Admin Main Menu:**
 
-  * **Starting Point:** A log in is required for the admin. Both the customer and admin begin at the login prompt. The admin username is *admin*. After the username is entered, the user is prompted for the password and the password is verified. If the password is not valid, the user is prompted to enter the password again. If the password is entered incorrectly a total of 3 times, the program returns to the Starting Point. Once the user successfully logs in, the Admin main menu is displayed.
+  * **Starting Point:** A login is required for the admin. Both the customer and admin begin at the login prompt. The admin username is *admin*. After the username is entered, the user is prompted for the password and the password is verified. If the password is not valid, the user is prompted to enter the password again. If the password is entered incorrectly a total of 3 times, the program returns to the Starting Point. Once the user successfully logs in, the Admin main menu is displayed.
   
   * **Admin Main Menu:**
     1. View Auditorium
