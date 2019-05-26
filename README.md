@@ -57,7 +57,7 @@ All user data must be saved in a file named userdb.dat. The program reads the fi
    * Senior
    * Child
   
-   For each ticket, the user is prompted to enter the row and seat numbers. The type of ticket (senior, adult or child) for each seat is tracked so that if a seat is removed from an order, the recipt and report totals are accurate.
+   For each ticket, the user is prompted to enter the row and seat numbers. The type of ticket (senior, adult or child) for each seat is tracked so that if a seat is removed from an order, the receipt and report totals are accurate.
   
    The availability of each ticket is then checked. The seats are not reserved unless all seats are available. If all the desired seats are not available, the best available consecutive seats (as described above) are searched. If the best seats are located, the user is prompted to enter **Y** to reserve them or **N** to refuse them. Once the selection is processed, the program returns to the main menu.
   
