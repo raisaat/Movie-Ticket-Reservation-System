@@ -19,7 +19,7 @@ Tickets are priced as follows:
 
 **Required file structure for the auditoriums:**
 
-The seating arrangement for each auditorium must be stored in separate files. The files should be named A1.txt, A2.txt and A3.txt for auditoriums 1, 2 and 3 respectively. Each line in the file should represent a row in the auditorium and the number of rows maybe random. The number of seats in each row of a *single* auditorium should be the same. For example, if the first line in the file has 15 seats, then every subsequent row in the theater should also have 15 seats. However, each auditorium is not required to have the same number of seats in each row. Empty seats are represented by pound signs (#) and reserved seats are reserved by periods (.).
+The seating arrangement for each auditorium must be stored in separate files. The files should be named A1.txt, A2.txt and A3.txt for auditoriums 1, 2 and 3 respectively. Each line in the file should represent a row in the auditorium and the number of rows maybe random. The number of seats in each row of a *single* auditorium should be the same. For example, if the first line in the file has 15 seats, then every subsequent row in the theater should also have 15 seats. However, each auditorium is not required to have the same number of seats in each row. Empty seats are represented by pound signs (#) and reserved seats are represented by periods (.).
 
 **Filling the HashMap:**
 
