@@ -23,7 +23,7 @@ The seating arrangement for each auditorium must be stored in separate files. Th
 
 **Filling the HashMap:**
 
-All user data must be saved in a file named userdb.dat. The program reads the file and fills in the hashmap before starting the user interface. The format of the user data file is as follows: \<username\>\<space\>\<password\>\<newline\>. The last line should not contain a newline character at the end of the line.
+All user data must be saved in a file named userdb.dat. The program reads the file and fills in the hashmap before starting the user interface. The format of the user data file should be as follows: \<username\>\<space\>\<password\>\<newline\>. The last line should not contain a newline character at the end of the line.
 
 **Customer User Interface:**
   
