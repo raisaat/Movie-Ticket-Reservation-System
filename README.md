@@ -42,14 +42,7 @@ All user data must be saved in a file named userdb.dat. The program reads the fi
    2. Auditorium 2
    3. Auditorium 3
   
-   The selected auditorium is then displayed in the following manner:
-  
-   12345678901234
-  1..#...######.#
-  2#########....#
-  3......#..#...#
-  
-   The seats are numbered sequentially from left to right and only the ones digit is displayed above each column to make it easier to display the chart. The second set of digits from 1 - 0 are for the numbers 11 - 20 and so on.
+   The selected auditorium is then displayed.
   
    After displaying the selected auditorium, the user is asked for the number of tickets in the following categories:
  
