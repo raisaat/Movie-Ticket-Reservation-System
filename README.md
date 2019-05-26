@@ -31,51 +31,51 @@ All user data must be saved in a file named userdb.dat. The program reads the fi
 
   * **Main Menu:**
   
-  1. Reserve Seats
-  2. View Orders
-  3. Update Order
-  4. Display Receipt
-  5. Log Out
+   1. Reserve Seats
+   2. View Orders
+   3. Update Order
+   4. Display Receipt
+   5. Log Out
 
   * **Reserve Seats:** When the user reserves seats, the auditorium submenu is displayed:
-  1. Auditorium 1
-  2. Auditorium 2
-  3. Auditorium 3
+   1. Auditorium 1
+   2. Auditorium 2
+   3. Auditorium 3
   
-  The selected auditorium is then displayed in the following manner:
+   The selected auditorium is then displayed in the following manner:
   
    12345678901234
   1..#...######..
   2#########.....
   3......#..#...#
   
-  The seats are numbered sequentially from left to right and only the ones digit is displayed above each column to make it easier to display the chart. The second set of digits from 1 - 0 are for the numbers 11 - 20 and so on.
+   The seats are numbered sequentially from left to right and only the ones digit is displayed above each column to make it easier to display the chart. The second set of digits from 1 - 0 are for the numbers 11 - 20 and so on.
   
-  After displaying the selected auditorium, the user is asked for the number of tickets in the following categories:
+   After displaying the selected auditorium, the user is asked for the number of tickets in the following categories:
  
-  * Adult
-  * Senior
-  * Child
+   * Adult
+   * Senior
+   * Child
   
-  For each ticket, the user is prompted to enter the row and seat numbers. The type of ticket (senior, adult or child) for each seat is tracked so that if a seat is removed from an order, the recipt and report totals are accurate.
+   For each ticket, the user is prompted to enter the row and seat numbers. The type of ticket (senior, adult or child) for each seat is tracked so that if a seat is removed from an order, the recipt and report totals are accurate.
   
-  The availability of each ticket is then checked. The seats are not reserved unless all seats are available. If all the desired seats are not available, the best available consecutive seats (as described above) are searched. If the best seats are located, the user is prompted to enter **Y** to reserve them or **N** to refuse them. Once the selection is processed, the program returns to the main menu.
+   The availability of each ticket is then checked. The seats are not reserved unless all seats are available. If all the desired seats are not available, the best available consecutive seats (as described above) are searched. If the best seats are located, the user is prompted to enter **Y** to reserve them or **N** to refuse them. Once the selection is processed, the program returns to the main menu.
   
   * **View Orders:** Displays all orders of the user who is logged in. It displays the auditorium, seats and the number of tickets per ticket type. Once the orders are displayed, the program returns to the main menu.
   
   * **Update Order:** Displays the orders in a numerical menu system, so that the user can enter the number of the order that shoukd be updated. Each order is listed on a separate line.
   
-  After the order menu has been displayed and the user has selected an order, the menu below is displayed and the user is prompted for an update action:
+   After the order menu has been displayed and the user has selected an order, the menu below is displayed and the user is prompted for an update action:
   
-  1. Add tickets to order
-  2. Delete tickets from order
-  3. Cancel order
+   1. Add tickets to order
+   2. Delete tickets from order
+   3. Cancel order
   
-  If the user wishes to add tickets to the order, the user is stepped through the reservation process to add seats to the current order. When the user finishes adding seats, the program returns to the main menu.
+   If the user wishes to add tickets to the order, the user is stepped through the reservation process to add seats to the current order. When the user finishes adding seats, the program returns to the main menu.
   
-  If the user wishes to delete tickets from an order, a numerical menu listing each individual seat reserved for that order is displayed. Along with the row and seat numbers, the ticket type is also displayed. The last entry in the menu is "Exit". The user selects a seat from the menu. That seat is removed from the order the seat is marked as open instead of reserved in the auditorium. If there are no tickets left in the order, the order is removed from the user's account and the program returns to the main menu. The program loops back to the individual seat menu until the user decides to exit the process and return the main menu.
+   If the user wishes to delete tickets from an order, a numerical menu listing each individual seat reserved for that order is displayed. Along with the row and seat numbers, the ticket type is also displayed. The last entry in the menu is "Exit". The user selects a seat from the menu. That seat is removed from the order the seat is marked as open instead of reserved in the auditorium. If there are no tickets left in the order, the order is removed from the user's account and the program returns to the main menu. The program loops back to the individual seat menu until the user decides to exit the process and return the main menu.
   
-  If the user wishes to cancel the order, all the seats in the order are marked as available and the order is removed from the user's account. After the order has been cancelled, the program returns to the main menu.
+   If the user wishes to cancel the order, all the seats in the order are marked as available and the order is removed from the user's account. After the order has been cancelled, the program returns to the main menu.
   
   * **Display Receipt:** Creates a formatted receipt for the user. Each order is displayed in detail (auditorium, seats and the number of tickets per ticket type), the amount for each order and the overall amount of all orders. Once the receipt is displayed, the program returns to the main menu.
   
@@ -92,11 +92,11 @@ All user data must be saved in a file named userdb.dat. The program reads the fi
    
   * **View Auditorium:** Displays the auditorium submenu:
   
-    1. Auditorium 1
-    2. Auditorium 2
-    3. Auditorium 3
+     1. Auditorium 1
+     2. Auditorium 2
+     3. Auditorium 3
     
-  The user is prompted for the auditorium number and then the current state of the auditorium is displayed. After the auditorium is displayed, the program returns to the Admin Main Menu:
+   The user is prompted for the auditorium number and then the current state of the auditorium is displayed. After the auditorium is displayed, the program returns to the Admin Main Menu:
   
   * **Print Report:** Displays a formatted report to the console. The report consists of 7 columns:
     * Column 1 - labels
@@ -112,6 +112,7 @@ All user data must be saved in a file named userdb.dat. The program reads the fi
     * Column 7 - Ticket sales (The total amount of ticket sales during this session for each label in column 1)
     
   * **Exit:** The audtorium seating arrangements are stored back to their respective files and the program is ended.
+  
   
   
 *All user input is checked for validity*
