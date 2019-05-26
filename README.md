@@ -63,7 +63,7 @@ All user data must be saved in a file named userdb.dat. The program reads the fi
   
   * **View Orders:** Displays all orders of the user who is logged in. It displays the auditorium, seats and the number of tickets per ticket type. Once the orders are displayed, the program returns to the main menu.
   
-  * **Update Order:** Displays the orders in a numerical menu system, so that the user can enter the number of the order that shoukd be updated. Each order is listed on a separate line.
+  * **Update Order:** Displays the orders in a numerical menu system, so that the user can enter the number of the order that should be updated. Each order is listed on a separate line.
   
    After the order menu has been displayed and the user has selected an order, the menu below is displayed and the user is prompted for an update action:
   
