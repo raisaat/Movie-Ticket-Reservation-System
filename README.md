@@ -45,8 +45,8 @@ All user data must be saved in a file named userdb.dat. The program reads the fi
    The selected auditorium is then displayed in the following manner:
   
    12345678901234
-  1..#...######..
-  2#########.....
+  1..#...######.#
+  2#########....#
   3......#..#...#
   
    The seats are numbered sequentially from left to right and only the ones digit is displayed above each column to make it easier to display the chart. The second set of digits from 1 - 0 are for the numbers 11 - 20 and so on.
@@ -79,7 +79,7 @@ All user data must be saved in a file named userdb.dat. The program reads the fi
   
   * **Display Receipt:** Creates a formatted receipt for the user. Each order is displayed in detail (auditorium, seats and the number of tickets per ticket type), the amount for each order and the overall amount of all orders. Once the receipt is displayed, the program returns to the main menu.
   
-  * **Log OUT:** Returns to the Starting Point.
+  * **Log Out:** Returns to the Starting Point.
   
 **Admin Main Menu:**
 
