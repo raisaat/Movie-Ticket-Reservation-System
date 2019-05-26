@@ -1,5 +1,7 @@
 # Movie-Ticket-Reservation-System
 
+A program that allows users to reserve seats in an auditorium and manipulate their orders and account information. The program has multiple interfaces – for the user and the administrator and has multiple classes to build a hashmap for storing the users’ account information. 
+
 ### Program Details
 
 The program serves as a backend of a ticket reservation system. Users are able to reserve seats in three auditoriums. Once an auditorium is selected, the program displays the current seating arrangement and allows the user to select seats. A report is generated at the end to specify, for each individual auditorium and overall for all auditoriums, how many seats have been sold/unsold and how much money was earned.
